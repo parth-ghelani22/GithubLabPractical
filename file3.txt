@@ -5,16 +5,3 @@ Commits: Changes made locally are saved as "commits" with descriptive messages, 
 Pull Requests (PRs): When changes in a branch are ready to be integrated into the main project, a pull request is opened. This initiates a review process where collaborators can comment, suggest improvements, and approve the changes before they are merged.
 Issues: This feature acts as a combination of a to-do list and discussion forum, helping teams track bugs, request features, and manage tasks.
 Organizations and Teams: For larger projects or companies, GitHub provides organization accounts to manage group access with granular permissions and roles. 
-Collaborative Workflows
-There are two primary models for collaboration:
-Shared Repository Model: Team members are granted direct push access to a single shared repository. They create topic branches for their work and use pull requests for code review before merging into the main branch. This is common in smaller teams and organizations.
-Fork and Pull Model: Popular in open-source projects, anyone with read access can "fork" (copy) a repository into their own GitHub account. They work independently on their fork and submit pull requests to the original repository's owner when their changes are ready for review and potential merging. 
-Basic Collaboration Steps
-A typical workflow involves the following steps: 
-Invite Collaborators: The repository owner adds teammates via their GitHub username or email address through the repository's settings under "Manage access".
-Clone the Repository: Collaborators create a local copy of the repository on their computer using git clone to work with their preferred tools.
-Work on a Branch: Before making changes, pull the latest updates from the remote repository (git pull) and create a new, descriptive branch.
-Commit and Push Changes: Periodically save changes locally with git commit and upload them to the remote repository on GitHub with git push.
-Open a Pull Request: Once work on a feature is complete, open a pull request to propose changes and request review from teammates.
-Review and Merge: Collaborators review the PR, potentially suggesting edits. Once approved, the changes are merged into the main branch.
-Sync Often: Regularly synchronize local copies and forks with the main project to minimize merge conflicts. 
